@@ -1,0 +1,330 @@
+{
+  "recipes": [
+    {
+      "id": "kottu",
+      "name": "Kottu Roti",
+      "category": "Main Course",
+      "image": "assets/images/recipes/kottu.webp",
+      "shortDescription": "Chopped godhamba roti stir-fried with curry, egg, and spices — Sri Lanka's iconic street food.",
+      "prepTime": "20 mins",
+      "cookTime": "15 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": true,
+      "tags": ["street food", "dinner", "spicy"],
+      "ingredients": [
+        "4 godhamba roti, finely chopped",
+        "2 eggs, beaten",
+        "200g chicken curry (or vegetable curry)",
+        "1 large onion, sliced",
+        "2 green chilies, sliced",
+        "1 sprig curry leaves",
+        "2 tbsp oil",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Heat oil in a large wok or flat pan over medium-high heat.",
+        "Add onions, green chilies, and curry leaves. Sauté until fragrant and soft.",
+        "Add the chopped roti and toss continuously for 2–3 minutes.",
+        "Push the roti to one side of the pan, pour in the eggs, and scramble.",
+        "Mix the scrambled egg through the roti.",
+        "Add the chicken curry and toss everything together until well combined.",
+        "Adjust salt, and serve hot with pol sambol."
+      ]
+    },
+    {
+      "id": "rice-and-curry",
+      "name": "Rice and Curry",
+      "category": "Main Course",
+      "image": "assets/images/recipes/rice-and-curry.webp",
+      "shortDescription": "Sri Lanka's everyday meal — steamed rice with an array of curries, papadam, and sambol.",
+      "prepTime": "15 mins",
+      "cookTime": "40 mins",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": true,
+      "tags": ["staple", "lunch", "dinner"],
+      "ingredients": [
+        "2 cups white rice, washed",
+        "1 cup dhal (lentils)",
+        "1 cup coconut milk",
+        "1 onion, chopped",
+        "2 green chilies",
+        "1 tsp turmeric",
+        "1 tsp curry powder",
+        "Curry leaves",
+        "Papadam (for serving)",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Cook rice in a rice cooker or pot with 1.5x water.",
+        "Wash dhal and boil with turmeric and salt until soft.",
+        "In a pan, heat oil, add onion, green chilies, and curry leaves.",
+        "Add curry powder, then the cooked dhal and coconut milk.",
+        "Simmer for 10 minutes until thick and creamy.",
+        "Serve rice with dhal curry, papadam, and pol sambol."
+      ]
+    },
+    {
+      "id": "hoppers",
+      "name": "Hoppers (Appa)",
+      "category": "Breakfast",
+      "image": "assets/images/recipes/hoppers.webp",
+      "shortDescription": "Bowl-shaped fermented rice flour pancakes with crispy edges — a Sri Lankan breakfast essential.",
+      "prepTime": "30 mins (plus fermentation overnight)",
+      "cookTime": "20 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": true,
+      "tags": ["breakfast", "fermented", "traditional"],
+      "ingredients": [
+        "2 cups rice flour",
+        "1 cup coconut milk",
+        "1 tsp yeast",
+        "1 tsp sugar",
+        "1/2 tsp salt",
+        "1 cup warm water",
+        "1 egg (for egg hoppers, optional)"
+      ],
+      "steps": [
+        "Mix rice flour, yeast, sugar, and warm water into a smooth batter.",
+        "Cover and let ferment overnight (or 6–8 hours).",
+        "Stir in coconut milk and salt. Adjust consistency to thin pancake batter.",
+        "Heat a small wok or hopper pan. Pour a ladle of batter and swirl to coat edges.",
+        "Cover and cook until edges are crispy and center is set.",
+        "For egg hoppers, crack an egg into the center before covering.",
+        "Serve hot with pol sambol or a curry."
+      ]
+    },
+    {
+      "id": "kiribath",
+      "name": "Kiribath (Milk Rice)",
+      "category": "Traditional",
+      "image": "assets/images/recipes/kiribath.webp",
+      "shortDescription": "Creamy coconut milk rice — the ceremonial dish of Sri Lankan celebrations.",
+      "prepTime": "5 mins",
+      "cookTime": "30 mins",
+      "servings": 6,
+      "difficulty": "Easy",
+      "featured": true,
+      "tags": ["traditional", "breakfast", "festive"],
+      "ingredients": [
+        "2 cups white rice (or kekulu rice)",
+        "2 cups thick coconut milk",
+        "2 cups water",
+        "1 tsp salt"
+      ],
+      "steps": [
+        "Wash rice and cook with water until fully soft and water is absorbed.",
+        "Add coconut milk and salt. Stir gently.",
+        "Cook on low heat, stirring occasionally, until creamy and thick.",
+        "Spread onto a flat tray or banana leaf, about 1-inch thick.",
+        "Let cool and set, then cut into diamond shapes.",
+        "Serve with lunu miris or a spicy sambol."
+      ]
+    },
+    {
+      "id": "pol-sambol",
+      "name": "Pol Sambol",
+      "category": "Side Dish",
+      "image": "assets/images/recipes/polsambal.webp",
+      "shortDescription": "Fresh coconut relish with chili, lime, and shallots — the essential Sri Lankan condiment.",
+      "prepTime": "10 mins",
+      "cookTime": "0 mins",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "tags": ["condiment", "spicy", "coconut"],
+      "ingredients": [
+        "2 cups freshly grated coconut",
+        "1 onion or 3 shallots, finely chopped",
+        "2 dried red chilies (or 1 tsp chili powder)",
+        "1 green chili, sliced",
+        "Juice of 1 lime",
+        "Salt to taste"
+      ],
+      "steps": [
+        "In a bowl, combine grated coconut, onion, and chilies.",
+        "Add chili powder (or crushed dried chilies).",
+        "Squeeze in the lime juice and add salt.",
+        "Mix well with clean hands or a spoon until the coconut turns pinkish.",
+        "Serve fresh with rice, hoppers, or string hoppers."
+      ]
+    },
+    {
+      "id": "pol-rotti",
+      "name": "Pol Roti",
+      "category": "Breakfast",
+      "image": "assets/images/recipes/pol-rotti-2.webp",
+      "shortDescription": "Coconut flatbread — hearty, chewy, and perfect with a spicy sambol.",
+      "prepTime": "15 mins",
+      "cookTime": "15 mins",
+      "servings": 4,
+      "difficulty": "Easy",
+      "featured": false,
+      "tags": ["breakfast", "coconut", "flatbread"],
+      "ingredients": [
+        "2 cups wheat flour",
+        "1 cup grated coconut",
+        "1 onion, finely chopped",
+        "2 green chilies, sliced",
+        "1 sprig curry leaves",
+        "1/2 cup water (approx.)",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Mix flour, coconut, onion, chilies, curry leaves, and salt.",
+        "Add water gradually and knead into a soft dough.",
+        "Divide into small balls and flatten into thin rounds.",
+        "Cook on a hot griddle until brown spots appear on both sides.",
+        "Serve warm with pol sambol or butter."
+      ]
+    },
+    {
+      "id": "string-hoppers",
+      "name": "String Hoppers (Idiyappam)",
+      "category": "Breakfast",
+      "image": "assets/images/recipes/stringhopper.webp",
+      "shortDescription": "Steamed rice flour noodles shaped into delicate nests — served with curry or sambol.",
+      "prepTime": "20 mins",
+      "cookTime": "15 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "tags": ["breakfast", "steamed", "traditional"],
+      "ingredients": [
+        "2 cups roasted rice flour",
+        "1.5 cups hot water",
+        "1/2 tsp salt",
+        "1 tbsp oil"
+      ],
+      "steps": [
+        "Mix rice flour, salt, and hot water into a soft dough.",
+        "Add oil and knead until smooth.",
+        "Fill a string hopper press (idiya appam maker) with dough.",
+        "Press onto small woven mats in a circular motion.",
+        "Steam for 5–7 minutes until cooked.",
+        "Serve warm with kiri hodi (coconut milk curry) or pol sambol."
+      ]
+    },
+    {
+      "id": "helapa",
+      "name": "Helapa",
+      "category": "Sweet",
+      "image": "assets/images/recipes/helapa.webp",
+      "shortDescription": "Traditional Sri Lankan sweet — rice flour, treacle, and coconut steamed in kenda leaves.",
+      "prepTime": "20 mins",
+      "cookTime": "30 mins",
+      "servings": 6,
+      "difficulty": "Medium",
+      "featured": false,
+      "tags": ["sweet", "traditional", "festive"],
+      "ingredients": [
+        "2 cups roasted rice flour",
+        "1 cup kithul treacle",
+        "1 cup grated coconut",
+        "1/2 tsp cardamom powder",
+        "Kenda leaves (or banana leaves) for wrapping"
+      ],
+      "steps": [
+        "Mix rice flour, treacle, coconut, and cardamom into a thick batter.",
+        "Wash and soften kenda leaves.",
+        "Place a spoonful of batter on each leaf and fold into a parcel.",
+        "Arrange parcels in a steamer.",
+        "Steam for 25–30 minutes until firm.",
+        "Cool slightly before unwrapping. Serve with Ceylon tea."
+      ]
+    },
+    {
+      "id": "aasmi",
+      "name": "Aasmi",
+      "category": "Sweet",
+      "image": "assets/images/recipes/aasmi.webp",
+      "shortDescription": "Crispy, colorful New Year sweet — rice flour lace drizzled with pink syrup.",
+      "prepTime": "25 mins",
+      "cookTime": "30 mins",
+      "servings": 8,
+      "difficulty": "Hard",
+      "featured": false,
+      "tags": ["sweet", "festive", "new year"],
+      "ingredients": [
+        "2 cups rice flour",
+        "1 cup coconut milk",
+        "1 cup kithul treacle",
+        "1 tsp cinnamon",
+        "Red food coloring",
+        "Oil for frying"
+      ],
+      "steps": [
+        "Mix rice flour and coconut milk into a thin batter.",
+        "Heat oil in a wide pan.",
+        "Using a coconut shell with a small hole, drizzle batter in a lace pattern.",
+        "Fry until crispy. Remove and drain.",
+        "Warm treacle with cinnamon and food coloring.",
+        "Drizzle syrup over the lace and let it set."
+      ]
+    },
+    {
+      "id": "lump-rice",
+      "name": "Lump Rice (Lamprais)",
+      "category": "Traditional",
+      "image": "assets/images/recipes/lump-rice-2.webp",
+      "shortDescription": "Dutch-influenced Sri Lankan rice dish — meat, sambol, and rice baked in a banana leaf.",
+      "prepTime": "45 mins",
+      "cookTime": "1 hour",
+      "servings": 4,
+      "difficulty": "Hard",
+      "featured": false,
+      "tags": ["traditional", "festive", "dutch"],
+      "ingredients": [
+        "2 cups rice, cooked",
+        "300g chicken or beef curry",
+        "1 cup seeni sambol",
+        "1 cup frikkadel (meatballs)",
+        "2 boiled eggs, halved",
+        "Banana leaves for wrapping",
+        "1 tsp cinnamon, cardamom, cloves (mixed)"
+      ],
+      "steps": [
+        "Prepare the curry, sambol, and meatballs separately.",
+        "Lay out banana leaves and place a portion of rice in the center.",
+        "Top with curry, sambol, meatballs, and egg.",
+        "Wrap tightly into a parcel and secure with string.",
+        "Bake at 180°C for 25–30 minutes.",
+        "Open carefully and serve hot."
+      ]
+    },
+    {
+      "id": "brinjal-moju",
+      "name": "Brinjal Moju",
+      "category": "Side Dish",
+      "image": "assets/images/recipes/brinjal-moju.webp",
+      "shortDescription": "Sweet, sour, and spicy eggplant pickle — a festive must-have.",
+      "prepTime": "20 mins",
+      "cookTime": "30 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "featured": false,
+      "tags": ["pickle", "festive", "vegetarian"],
+      "ingredients": [
+        "4 medium brinjals (eggplants), sliced",
+        "1 onion, sliced",
+        "2 green chilies",
+        "1 tbsp ginger-garlic paste",
+        "1 tbsp vinegar",
+        "2 tbsp sugar",
+        "1 tsp chili powder",
+        "1 tsp turmeric",
+        "Oil for frying"
+      ],
+      "steps": [
+        "Slice brinjals and soak in salted water for 10 minutes.",
+        "Pat dry and deep-fry until golden brown.",
+        "In a pan, sauté onion, chilies, and ginger-garlic.",
+        "Add chili powder, turmeric, vinegar, sugar, and salt.",
+        "Add fried brinjals and toss gently.",
+        "Simmer until the sauce coats the brinjals. Cool and serve."
+      ]
+    }
+  ]
+}
