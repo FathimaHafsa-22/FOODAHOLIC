@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--SEO -->
+  <title>Foodaholic — Sri Lankan Traditional Cuisines</title>
+  <meta name="description" content="Discover authentic Sri Lankan recipes passed down through generations. Kottu, Hoppers, Rice & Curry, and more — Every Food Has Its Own Soul." />
+  <meta name="author" content="Hafsa Nafli" />
+  <meta name="keywords" content="Sri Lankan food, traditional recipes, Kottu, Hoppers, Rice and Curry, Kiribath, Ceylon cuisine" />
+
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:title" content="Foodaholic — Sri Lankan Traditional Cuisines" />
+  <meta property="og:description" content="Every Food Has Its Own Soul. Explore authentic Sri Lankan recipes." />
+  <meta property="og:image" content="assets/images/hero/hero-home.webp" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo/logo.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@300..700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+
+  <!-- Theme applied BEFORE render to prevent flash -->
+  <script src="assets/js/theme.js"></script>
+</head>
+
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Brand / Logo -->
+      <a href="index.html" class="brand" aria-label="Foodaholic home">
+        <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="42" height="42" aria-hidden="true">
+          <circle cx="100" cy="100" r="95" fill="#FEFAE0"/>
+          <path d="M 55 110 Q 55 155, 100 155 Q 145 155, 145 110 L 145 100 L 55 100 Z" fill="#2D6A4F"/>
+          <rect x="50" y="92" width="100" height="12" rx="6" fill="#1B4332"/>
+          <ellipse cx="100" cy="90" rx="8" ry="4" fill="#1B4332"/>
+          <path d="M 85 75 Q 80 65, 85 55 Q 90 45, 85 35" stroke="#E76F51" stroke-width="4" stroke-linecap="round" fill="none"/>
+          <path d="M 100 70 Q 95 60, 100 50 Q 105 40, 100 30" stroke="#E76F51" stroke-width="4" stroke-linecap="round" fill="none"/>
+          <path d="M 115 75 Q 110 65, 115 55 Q 120 45, 115 35" stroke="#E76F51" stroke-width="4" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span class="brand-name">Foodaholic</span>
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation links -->
+      <nav class="nav" id="nav-menu" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"></button>
+    </div>
+  </header>
+
+    <!-- HERO SECTION -->
+  <section class="hero" style="background-image: url('assets/images/hero/hero-home.webp');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <!-- Left: text -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">A Taste of Sri Lanka</p>
+        <h1 class="hero-title">Every Food Has<br>Its Own Soul.</h1>
+        <p class="hero-subtitle">
+          Discover authentic Sri Lankan recipes passed down through generations —
+          from sizzling Kottu to delicate Hoppers.
+        </p>
+      </div>
+
+      <!-- Right: stacked buttons -->
+      <div class="hero-actions">
+        <a href="recipes.html" class="btn btn-primary hero-btn">
+          <span>Explore Recipes</span>
+          <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="about.html" class="btn btn-outline hero-btn">
+          <span>Our Story</span>
+          <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED RECIPES -->
+  <section class="section featured-section">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-eyebrow">Handpicked for you</p>
+        <h2 class="section-title">Featured Recipes</h2>
+        <p class="section-subtitle text-muted">
+          The dishes our readers can't stop talking about.
+        </p>
+      </header>
+
+      <div class="recipe-grid" id="featured-grid" aria-live="polite">
+        <!-- Recipe cards injected by JS -->
+        <p class="loading-text">Loading recipes…</p>
+      </div>
+
+      <div class="section-cta">
+        <a href="recipes.html" class="btn btn-outline">View All Recipes →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section class="section about-strip">
+    <div class="container about-strip-inner">
+      <div class="about-strip-image" style="background-image: url('assets/images/hero/about-banner.webp');" role="img" aria-label="Sri Lankan dishes"></div>
+      <div class="about-strip-content">
+        <p class="section-eyebrow">Our mission</p>
+        <h2 class="section-title">Bringing Sri Lankan flavors to the world.</h2>
+        <p class="text-muted">
+          Sri Lanka's food is more than nutrition — it's history on a plate. From Dutch-influenced
+          Lamprais to ancient rice and curry traditions, each dish carries a story passed down
+          through generations. Foodaholic is our way of keeping those stories alive.
+        </p>
+        <a href="about.html" class="btn btn-primary">Read Our Story →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-tagline">"Every Food Has Its Own Soul"</p>
+        <p class="footer-desc text-muted">
+          Promoting Sri Lankan traditional cuisines to the world.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="mailto:Srilankanfoodaholics2007@gmail.lk">Email us</a></li>
+          <li><a href="contact.html">Share a recipe</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="current-year">2025</span> Foodaholic. Made with ❤️ in Sri Lanka.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    
+    /* FEATURED RECIPES — Fetch JSON & Render Cards */
+    (async function renderFeatured() {
+      const grid = document.getElementById('featured-grid');
+      if (!grid) return;
+
+      try {
+        const res = await fetch('assets/data/recipes.json');
+        if (!res.ok) throw new Error('Failed to load recipes');
+        const data = await res.json();
+
+        const featured = data.recipes.filter((r) => r.featured).slice(0, 4);
+
+        grid.innerHTML = featured
+          .map(
+            (r) => `
+          <article class="recipe-card" data-reveal>
+            <a href="recipe.html?id=${r.id}" class="recipe-card-link" aria-label="View ${r.name} recipe">
+              <div class="recipe-card-image">
+                <img src="${r.image}" alt="${r.name}" loading="lazy" />
+                <span class="recipe-card-category">${r.category}</span>
+              </div>
+              <div class="recipe-card-body">
+                <h3 class="recipe-card-title">${r.name}</h3>
+                <p class="recipe-card-desc text-muted">${r.shortDescription}</p>
+                <div class="recipe-card-meta">
+                  <span>⏱ ${r.prepTime}</span>
+                  <span>🍽 ${r.servings} servings</span>
+                </div>
+              </div>
+            </a>
+          </article>`
+          )
+          .join('');
+
+        // Re-run reveal observer for newly injected cards
+        document.querySelectorAll('[data-reveal]').forEach((el) => el.classList.add('is-revealed'));
+      } catch (err) {
+        console.error(err);
+        grid.innerHTML = `<p class="text-muted">Sorry — recipes couldn't be loaded right now.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
